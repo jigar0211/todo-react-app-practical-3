@@ -1,10 +1,12 @@
-import './App.css';
+import React from 'react';
+import Main from './components/main/main';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+    <div className="App">
+     <Main />
+    </div>
   );
 }
 

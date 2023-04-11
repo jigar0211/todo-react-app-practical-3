@@ -1,0 +1,24 @@
+.button_div{
+    position: relative;
+    height: 4.3rem;
+}
+.button_div .addition{
+    position: absolute;
+    top: 1.8rem;
+    background-color: rgb(127, 255, 178);
+    border: none;
+    height: 5rem;
+    width: 5rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    opacity: 1;
+}
+input[type="text"]{
+    background-color: #f8f9fa;
+    border-width: 0 0 0.06rem 0;
+    border-color:  rgb(174, 173, 173) !important;
+    outline: none;
+}
+#warning{
+    display: none;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Mukta:wght@300&family=Rubik&family=Work+Sans&display=swap');
+.main_items-container{
+    height: 31.2rem;
+}
+.list-conatainer{
+    height: 100%;
+    overflow-y: scroll; 
+}
+.list-conatainer::-webkit-scrollbar-track
+{
+	border-radius: 0.6rem;
+}
+
+.list-conatainer::-webkit-scrollbar
+{
+	width: 0.3rem;
+}
+
+.list-conatainer::-webkit-scrollbar-thumb
+{
+	border-radius: 0.6rem;
+	background-color: rgb(186, 186, 186);
+}
+
+.not-checked-item, .checked-item {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3rem ;
+    font-weight: 500; 
+    background-color: #f8f9fa;
+}
+.checked-item{
+    color: gray;
+}
+.list{
+    padding: 1rem 0;
+}
+input[type=checkbox] {
+    cursor: pointer;
+    appearance: none;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 0.2rem #c4c3c3 solid;
+    background-color: #f8f9fa;
+}
+
+input[type=checkbox]:checked{
+    background-image: url("../Img/checkbox.ico");
+    background-size: cover;
+    border-radius: none;
+    border: none;
+    padding-right: 1.5rem !important;
+    padding-bottom: 2rem !important;
+}
