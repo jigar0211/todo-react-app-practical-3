@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './components/main/main';
+import Main from './components/Main/Main';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {

@@ -15,24 +15,21 @@ function Items(props) {
   return ( 
         <>     
           <div className='main_items-container bg-light mt-3 pe-1 pe-md-0'>
-            <div className='list-conatainer bg-light'>
+            <div className='list-container bg-light'>
                 {props.list.length === 0 && (
                   <>
                     <div className='bg-light align-items-center justify-content-center d-flex flex-column h-100 w-100'>
                         <span className='not-checked-item pb-3'> Nothing is added</span>
-                        <img className='bg-light d-block' src={todoImage} width='12.5rem' height='12.5rem' alt='todo list photograph' />
+                        <img className='bg-light d-block' src={todoImage} width='380.5rem' height='360.5rem' alt='todo list photograph' />
                     </div>
                   </>  
                 )}
-              
               {props.list && props.list.map((item, index) => (
                 <div key={index} 
                   className='list ps-2 pe-3 ps-md-5 pe-md-4 d-flex bg-light justify-content-between'>
-                    
                     <span className={isChecked(item)}>
                       {item.task}
                     </span>
-
                     <input value={item}
                       type="checkbox"
                       className='ps-2 pe-2'

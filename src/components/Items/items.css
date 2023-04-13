@@ -2,21 +2,21 @@
 .main_items-container{
     height: 31.2rem;
 }
-.list-conatainer{
+.list-container{
     height: 100%;
     overflow-y: scroll; 
 }
-.list-conatainer::-webkit-scrollbar-track
+.list-container::-webkit-scrollbar-track
 {
 	border-radius: 0.6rem;
 }
 
-.list-conatainer::-webkit-scrollbar
+.list-container::-webkit-scrollbar
 {
 	width: 0.3rem;
 }
 
-.list-conatainer::-webkit-scrollbar-thumb
+.list-container::-webkit-scrollbar-thumb
 {
 	border-radius: 0.6rem;
 	background-color: rgb(186, 186, 186);

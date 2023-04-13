@@ -70,7 +70,7 @@ function AddButton() {
                     </button>) :
                         (<input type='text' 
                             className='inputText ps-2 pb-2' 
-                            placeholder='Enter Your task' 
+                            placeholder='Enter Your task, "Press ESC to cancel"' 
                             value={data} 
                             onChange={dataHanlder} 
                             onKeyDown={eventHandler} 
